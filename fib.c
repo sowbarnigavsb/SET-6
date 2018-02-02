@@ -3,8 +3,8 @@ int main()
 {
 	int f,s,sum,i,n,temp;
 	scanf("%d%d%d",&n,&f,&s);
-	printf("%d\t%d",f,s);
-	for(i=1;i<=n;i++)
+	printf("%d",s);
+	for(i=1;i<=n-1;i++)
 	{
 		sum=f+s;
                         printf("\t%d",sum);
@@ -14,3 +14,4 @@ int main()
 	}
 	return 0;
 }
+
